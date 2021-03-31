@@ -1,0 +1,12 @@
+graylog_server: "http://test.com:9000"
+api_prefix: "/api"
+access_token: "TEST_ACCESS_TOKEN"
+required_graylog_version: "4.0.0"
+saved_seaches:
+       - name: "Test"
+         searchquery: "Test"
+         description: "Test"
+         summary: "Test"
+         timerange:
+            type: "relative"
+            range: 300
